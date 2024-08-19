@@ -54,7 +54,7 @@ src/
    cd canvas-drawing-app
    ```
 
-3. Install the dependencies using \`pnpm\`:
+3. Install the dependencies using `pnpm`:
 
    ```bash
    pnpm install
@@ -68,7 +68,7 @@ To start the development server, run:
 pnpm dev
 ```
 
-This will start the application on \`http://localhost:3000\`.
+This will start the application on http://localhost:3000.
 
 ### Usage
 
@@ -80,19 +80,19 @@ This will start the application on \`http://localhost:3000\`.
 
 ### Toolbar Component
 
-The \`Toolbar\` component is responsible for rendering the tool buttons. When a button is clicked, the corresponding tool is created using the \`ToolFactory\`, activated, and set as the active tool in the \`CanvasContext\`.
+The `Toolbar` component is responsible for rendering the tool buttons. When a button is clicked, the corresponding tool is created using the `ToolFactory`, activated, and set as the active tool in the `CanvasContext`.
 
 ### Canvas Component
 
-The \`Canvas\` component is where all the drawing and interactions happen. It uses the current tool's logic to modify the canvas based on user input.
+The `Canvas` component is where all the drawing and interactions happen. It uses the current tool's logic to modify the canvas based on user input.
 
 ### ToolFactory
 
-The \`ToolFactory\` is used to create instances of tools based on the selected tool type. This pattern allows easy extension of new tools without modifying existing code.
+The `ToolFactory` is used to create instances of tools based on the selected tool type. This pattern allows easy extension of new tools without modifying existing code.
 
 ### Services
 
-The \`services/\` directory contains modules that handle external data fetching, API communication, or other business logic that is separate from the UI components. For example:
+The `services/` directory contains modules that handle external data fetching, API communication, or other business logic that is separate from the UI components. For example:
 
 - **StubAPIService.ts**: A service used to mock or stub API calls for testing purposes. This can be extended to handle real API interactions or to provide predefined data responses for development.
 
@@ -107,4 +107,4 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the \`LICENSE\` file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
